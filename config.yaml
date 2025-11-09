@@ -1,0 +1,35 @@
+credentials:
+  linkedin:
+    email: "you@example.com"
+    password: "YOUR_PASSWORD"
+  indeed:
+    email: "you@example.com"
+    password: "YOUR_PASSWORD"  # optional; many applies are external
+
+search:
+  keywords:
+    - "Python Developer Intern"
+    - "AI ML Intern"
+  locations:
+    - "Remote"
+    - "India"
+  max_pages: 3
+
+filters:
+  remote_only: true
+  min_experience_level: 0     # 0 => internship or entry
+  must_have_keywords: ["python", "machine learning", "pandas"]
+
+apply_rules:
+  auto_apply_if_all:       # auto-apply only if all these match
+    max_required_fields: 5  # e.g. no complex custom tests
+    no_external_website: true
+  cover_letter_template_path: "templates/cover_letter.j2"
+  resume_path: "files/resume.pdf"
+
+run:
+  headless: false
+  slow_mode: true
+  random_wait_min: 2
+  random_wait_max: 6
+  safe_delay_seconds: 3
