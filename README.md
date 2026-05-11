@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python main.py
+python apply_bot.py
 ```
 ## Sreenshots
 <img width="1863" height="819" alt="image" src="https://github.com/user-attachments/assets/1ff6c8f2-78ff-4cec-9b59-84ecb77fe56c" />
