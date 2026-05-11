@@ -1,44 +1,76 @@
-🚀 Apply – AI-Powered LinkedIn Job Applier
+# AutoApply — AI-Powered LinkedIn Job Application System
 
-AutoApply is an intelligent Python automation tool that streamlines your job application process on LinkedIn.
-It securely logs in to your LinkedIn account, searches for Python-related job opportunities, generates a personalized AI-based cover letter, and asks for your confirmation before submitting each application.
+## Overview
 
-🌟 Key Features
+AutoApply is an AI-assisted browser automation system designed to streamline repetitive LinkedIn job application workflows using intelligent automation and dynamic application generation.
 
-🔐 Secure Login – Uses your LinkedIn credentials locally (never stored or shared).
+The system automates:
 
-🤖 AI-Generated Cover Letters – Creates professional, context-aware cover letters tailored to each job.
+* job search workflows,
+* navigation pipelines,
+* application handling,
+* and personalized cover letter generation.
 
-💼 Smart Job Search – Automatically finds and filters Python or tech-related roles.
+---
 
-✅ User Confirmation – Always asks before applying to ensure control and accuracy.
+## Features
 
-⚙️ Fully Automated Workflow – Saves hours of manual job applications with a single run.
+* Intelligent LinkedIn automation using Selenium
+* Automated job search and application workflows
+* AI-assisted cover letter generation using Jinja2 templates
+* Human-like interaction simulation
+* Secure YAML-based credential management
+* User confirmation prompts before submission
 
-🧠 How It Works
+---
 
-The user enters their LinkedIn email and password.
+## Technologies Used
 
-The script logs in using Selenium or Requests-based automation.
+* Python
+* Selenium
+* Jinja2
+* YAML
+* webdriver_manager
 
-It searches for “Python Developer” or related job listings.
+---
 
-For each job:
+## Installation
 
-Fetches job details (title, company, description).
+```bash
+git clone https://github.com/deepsk2525/AutoApply.git
+cd AutoApply
+pip install -r requirements.txt
+```
 
-Generates a custom cover letter using AI logic or templates.
+---
 
-Displays it for your approval.
+## Usage
 
-Upon confirmation, applies automatically through LinkedIn.
+```bash
+python main.py
+```
 
-🧰 Tech Stack
+---
 
-Language: Python 3.x
+## Project Goals
 
-Libraries: selenium, requests, beautifulsoup4, openai (or similar for AI writing), time, os
+This project was built to:
 
-Automation Framework: Selenium WebDriver
+* reduce repetitive manual application effort,
+* explore intelligent browser automation,
+* and understand AI-assisted workflow systems.
 
-Purpose: Job automation & intelligent application assistant
+---
+
+## Future Improvements
+
+* LLM-powered resume optimization
+* AI-based job matching
+* Multi-platform support
+* Dashboard analytics
+
+---
+
+## Disclaimer
+
+This project was developed for educational and research purposes only.
