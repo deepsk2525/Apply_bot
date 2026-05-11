@@ -49,6 +49,11 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+## Sreenshots
+<img width="1863" height="819" alt="image" src="https://github.com/user-attachments/assets/1ff6c8f2-78ff-4cec-9b59-84ecb77fe56c" />
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/b33e049a-d8dd-4218-9ca8-6c72dc281d5c" />
+
+
 
 ---
 
