@@ -13,7 +13,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-# start
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
 # ---------- Utils ----------
